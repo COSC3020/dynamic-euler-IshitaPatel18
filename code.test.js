@@ -1,5 +1,5 @@
 const fs = require('fs');
-const assert = require('assert');
+const assert = require('jsverify');
 eval(fs.readFileSync('code.js')+'');
 
 function factorial(n) {
